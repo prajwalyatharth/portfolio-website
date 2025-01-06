@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(to bottom right, #e7dfed, #6baddf);
+}
+
+
+
+.section1 {
+    /* border: 1px solid black; */
+    padding-left: 128px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+    width: 50%;
+}
+
+.section1 div {
+    display: flex;
+    align-items: center; 
+    font-size: 40px;
+}
+
+.section1 img {
+    width: 50px;
+    height: auto;
+    margin-right: 20px; 
+    box-shadow: #a27bcf;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.section1 container{
+    display: flex;
+    flex-direction: column;
+    justify-content:left; 
+
+}
+
+.section1 container>span {
+    font-size: 86px;
+}
+.section1 container>p {
+    font-size: 40px;
+}
+
+
+
+.section2 {
+    /* border: 1px solid black;
+    height: 130vh;
+    justify-content: space-around;
+    position: relative;
+    
+    /* width: 50%; */
+    /* margin-top: 10px;
+    margin-right: 10px; */ 
+   
+}
+
+.section2 img {
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 16px;
+    width: 700px;
+    height: auto;
+}
+
+.section3{
+    /* border: 1px solid black; */
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+
+}
+.section3 .box{
+    /* border: 1px solid black; */
+    /* background-color: aquamarine; */
+    border-radius: 24px;
+    width: 220px;
+    height: 200px;
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between; 
+    z-index: 1;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(254, 251, 251);
+    
+}
+
+.section3 .box i {
+    font-size: 34px;
+}
+
+#template-box-1 {
+    color: #7316dd;
+}
+#template-box-2  {
+    color: rgb(244, 244, 36);
+}
+#template-box-2 .yellow {
+    color: rgb(181, 181, 25);
+}
+#template-box-2 .brown {
+    color:  rgb(65, 65, 6);
+}
+#template-box-3 {
+    color: #0e6c18;
+}
+
+
+
+
