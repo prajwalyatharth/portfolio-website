@@ -14,14 +14,14 @@ main {
 
 .section1 {
     /* border: 1px solid black; */
-    padding-left: 128px;
+    padding-left: 115px;
     padding-top: 80px;
     padding-bottom: 80px;
     padding-right: 80px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly; 
-    width: 50%;
+    width: 49%;
 }
 
 .section1 div {
@@ -46,35 +46,14 @@ main {
 
 }
 
-.section1 container>span {
+.section1 container span {
     font-size: 86px;
 }
-.section1 container>p {
+.section1 container p {
     font-size: 40px;
 }
 
 
-
-.section2 {
-    /* border: 1px solid black;
-    height: 130vh;
-    justify-content: space-around;
-    position: relative;
-    
-    /* width: 50%; */
-    /* margin-top: 10px;
-    margin-right: 10px; */ 
-   
-}
-
-.section2 img {
-    /* border: 1px solid black; */
-    margin-top: 10px;
-    margin-left: 20px;
-    border-radius: 16px;
-    width: 700px;
-    height: auto;
-}
 
 .section3{
     /* border: 1px solid black; */
@@ -90,7 +69,7 @@ main {
     /* background-color: aquamarine; */
     border-radius: 24px;
     width: 220px;
-    height: 200px;
+    height: 220px;
     display: flex;
     padding: 40px;
     flex-direction: column;
@@ -100,6 +79,7 @@ main {
     font-size: 25px;
     font-weight: bold;
     background-color: rgb(254, 251, 251);
+    margin-top: 20px;
     
 }
 
@@ -124,5 +104,254 @@ main {
 }
 
 
+/* resume */
+.section2 {
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 16px;
+    width: 730px;
+    height: 140vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+}
+
+.section2 aside{
+    /* border: 1px solid black; */
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+}
+
+.section2 .bg {
+    height: 15%;
+    width: 100%;
+    border-top-left-radius: 16px;
+    background-color: bisque;
+}
+
+.section2 .profileee{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: linear-gradient(to bottom right, #e7dfed, #aacde9);
+}
+
+.section2 .intro {
+    height: 23%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+
+.section2 .intro h1{
+    font-size: 25px;
+}
+.section2 .intro h2{
+    font-size: 20px;
+}
+.section2 .intro p{
+    font-size: 15px;
+}
+.section2 .intro span{
+    font-size: 12px;
+    color:rgb(113, 117, 117);
+}
+
+.section2 .contact {
+    height:25% ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:left;
+    border-top: 1px solid black ;
+}
+
+.section2 .contact i{
+    font-size: 23px;
+    margin-right: 18px;
+    background-color: rgb(234, 234, 234);
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.section2 .contact div {
+    display: flex;
+}
+
+.section2 .contact div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.section2 .contact div > span{
+    color:rgb(113, 117, 117);
+}
+.section2 .contact div > a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
 
 
+/*  */
+.section2 .social {
+    height:40% ;
+    width: 100%;
+    display: flex;
+    padding-top:25px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:left;
+    border-top: 1px solid black ;
+}
+
+.section2 .social i{
+    font-size: 23px;
+    margin-right: 18px;
+    color: #000;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.section2 .social div {
+    display: flex;
+}
+
+.section2 .social div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.section2 .social div > span{
+    color:rgb(113, 117, 117);
+}
+.section2 .social div > a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+.section2 .social div > img{
+   height: 30px;
+   width: auto;
+   margin-right: 20px;
+
+}
+
+.section2 container{
+    background-color: white;
+    border-top-right-radius: 16px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    padding-left: 20px;
+    padding-top: 30px;
+    /* margin-left: 25px; */
+}
+
+.section2 container .heading {
+    display: flex;
+    flex-direction: row;
+}
+.section2 container .heading i {
+    padding: 5px;
+    border-radius: 50%;
+    color: #7a21ad;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    font-size: 10px;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.section2 container .experience{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-left: 1px solid black;
+    padding: 20px;
+    margin-left: 7px;
+}
+
+.section2 container .experience .box {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7316dd;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 60px;
+    width: auto;
+}
+.section2 container .experience img {
+    height: 30px;
+    width: auto;
+}
+
+
+.section2 container .experience .box div {
+    font-size: 12px;
+    display: flex;
+}
+.section2 container .experience .box div div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.section2 container .experience .box div .div1{
+    align-items: end;
+}
+.section2 container .experience .box div .div1 .Presentlocation{
+    padding: 2px 7px;
+    border-radius: 10%;
+    background-color: #a27bcf;
+}
+
+
+/*  */
+
+.section2 container .skills{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-left: 1px solid black;
+    padding: 20px;
+    margin-left: 7px;
+    font-size: 12px;
+}
+
+.section2 container .skills div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.section2 container .skills div .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 15px;
+   
+}
