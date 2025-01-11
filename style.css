@@ -302,23 +302,28 @@ main {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #7316dd;
+    background-color: #ede9f2;
     border-radius: 15px;
     padding-left: 20px;
     padding-right: 20px;
     height: 55px;
     width: auto;
 }
+
 .section2 container .experience img {
     height: 30px;
     width: auto;
 }
 
-
 .section2 container .experience .box div {
     font-size: 12px;
     display: flex;
 }
+
+/* .section2 container .experience .box div i{
+    font-size: 12px;
+} */
+
 .section2 container .experience .box div div{
     display: flex;
     flex-direction: column;
@@ -327,10 +332,13 @@ main {
 .section2 container .experience .box div .div1{
     align-items: end;
 }
+.section2 container .experience .box div .div1 i{
+    margin-right: 10px;
+}
 .section2 container .experience .box div .div1 .Presentlocation{
     padding: 2px 7px;
     border-radius: 10%;
-    background-color: #a27bcf;
+    background-color: #c8a8ed;
 }
 
 
