@@ -106,12 +106,12 @@ main {
 
 /* resume */
 .section2 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 15px;
     margin-left: 20px;
     border-radius: 16px;
     width: 730px;
-    height: 140vh;
+    height: 160vh;
 
     display: flex;
     flex-direction: row;
@@ -132,6 +132,12 @@ main {
 .section2 .bg {
     height: 15%;
     width: 100%;
+    border-top-left-radius: 16px;
+    background-color: bisque;
+}
+.section2 .bg img{
+    height: 160px;
+    width: auto;
     border-top-left-radius: 16px;
     background-color: bisque;
 }
@@ -193,15 +199,15 @@ main {
     display: flex;
 }
 
-.section2 .contact div > div{
+.section2 .contact div  div{
     display: flex;
     flex-direction: column;
     align-items: start;
 }
-.section2 .contact div > span{
+.section2 .contact div  span{
     color:rgb(113, 117, 117);
 }
-.section2 .contact div > a{
+.section2 .contact div  a{
     color:rgb(0, 0, 0);
     text-decoration: none;
 }
@@ -231,20 +237,20 @@ main {
     display: flex;
 }
 
-.section2 .social div > div{
+.section2 .social div  div{
     display: flex;
     flex-direction: column;
     align-items: start;
 }
-.section2 .social div > span{
+.section2 .social div  span{
     color:rgb(113, 117, 117);
 }
-.section2 .social div > a{
+.section2 .social div  a{
     color:rgb(0, 0, 0);
     text-decoration: none;
 
 }
-.section2 .social div > img{
+.section2 .social div  img{
    height: 30px;
    width: auto;
    margin-right: 20px;
@@ -280,13 +286,14 @@ main {
 
 .section2 container .experience{
     width: 100%;
-    height: 350px;
+    height: 380px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     border-left: 1px solid black;
     padding: 20px;
     margin-left: 7px;
+    gap: 3px;
 }
 
 .section2 container .experience .box {
@@ -299,7 +306,7 @@ main {
     border-radius: 15px;
     padding-left: 20px;
     padding-right: 20px;
-    height: 60px;
+    height: 55px;
     width: auto;
 }
 .section2 container .experience img {
@@ -328,30 +335,194 @@ main {
 
 
 /*  */
-
-.section2 container .skills{
+.section2 container .skills-box{
+    border-left: 1px solid black;
+    margin-left: 7px;
     width: 100%;
-    height: 200px;
+    height: fit-content;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap:10px;
+}
+
+
+.section2 container .skills{
+  
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    align-content: center;
+    height: fit-content;
+      
+}
+
+.section2  container .skills > div {
+    padding: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    margin-right: 9px;
+    color: #7316dd;
+    background-color:rgb(247, 252, 255);
+  }
+  
+  .section2 container .skills .box-heading {
+    border: none;
+    background-color: transparent;
+  }
+  .section2 container .skills .box-heading i {
+    padding: 7px;
+    background-color: rgb(234, 202, 234);
+    border-radius: 50%;
+  }
+  .section2 container .skills .box-heading  {
+    padding: 7px;
+  }
+
+
+.section2 container .skills2{
+  
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+}
+
+.section2  container .skills2 > div {
+    padding: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    margin-right: 9px;
+    color: rgb(46, 44, 143);
+    align-content: center;
+    height: 60px; 
+    background-color:rgb(247, 252, 255);
+
+  }
+  
+  .section2 container .skills2 .box-heading {
+    border: none;
+    background-color: transparent;
+  }
+  .section2 container .skills2 .box-heading i {
+    padding: 7px;
+    background-color: rgb(163, 213, 225);
+    border-radius: 50%;
+  }
+  .section2 container .skills2 .box-heading  {
+    padding: 7px;
+  }
+
+  /*  */
+  .section2 .education{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     border-left: 1px solid black;
     padding: 20px;
     margin-left: 7px;
-    font-size: 12px;
+    font-size: 10px;
+  }
+
+  .section2 .education .box {
+    height: 100px;
+    background-color:rgb(247, 252, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    width: 130px;
+    border-radius: 5px;
+  }
+  .section2 .education .box div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .section2 .education .box img{
+    height: 40px;
+    margin-right: 7px;
+  }
+
+
+
+
+
+/*  */
+.section2 .project-box{
+    border-left: 1px solid black;
+    margin-left: 7px;
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.section2 container .skills div {
+.section2 .project-box .box-set {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    width: 210px;    
+    background-color:rgb(247, 252, 255);
+    height: fit-content;
+    padding: 15px;
 }
-.section2 container .skills div .box {
+
+.section2 .project-box .box-set i{
+    margin-right: 10px;
+}
+
+.section2 .project-box .box{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    border: 1px solid black;
+    height: fit-content;
+}
+ 
+.section2 .project-box img{
+    height: 40px;
+    width: auto;
+    margin-right: 15px;
+    background-color: #000;
     padding: 5px;
-    border-radius: 15px;
-   
+    border-radius: 5px;
+}
+
+
+/*  */
+.section2 .tools  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 7px;
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    font-size: 10px;
+}
+
+.section2 .tools .box{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   background-color:rgb(229, 231, 232);
+   height: fit-content;
+   width: 110px;
+   padding: 5px;
+   height: 100px;
+   border-radius: 5px;
+}
+
+.section2 .tools .box p{
+    font-size: 10px;
+    color:rgb(105, 104, 105);
+}
+
+.section2 .tools img{
+    height: 30px;
+    width: auto;
 }
